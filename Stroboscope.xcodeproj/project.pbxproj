@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FD03FCE192913E0003B749D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD03FCD192913E0003B749D /* Foundation.framework */; };
+		5FD03FD0192913E0003B749D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD03FCF192913E0003B749D /* CoreGraphics.framework */; };
+		5FD03FD2192913E0003B749D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD03FD1192913E0003B749D /* UIKit.framework */; };
+		5FD03FD8192913E0003B749D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FD03FD6192913E0003B749D /* InfoPlist.strings */; };
+		5FD03FDA192913E0003B749D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD03FD9192913E0003B749D /* main.m */; };
+		5FD03FDE192913E0003B749D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD03FDD192913E0003B749D /* AppDelegate.m */; };
+		5FD03FE1192913E0003B749D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD03FDF192913E0003B749D /* Main.storyboard */; };
+		5FD03FE4192913E0003B749D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD03FE3192913E0003B749D /* ViewController.m */; };
+		5FD03FE6192913E0003B749D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FD03FE5192913E0003B749D /* Images.xcassets */; };
+		5FD03FED192913E0003B749D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD03FEC192913E0003B749D /* XCTest.framework */; };
+		5FD03FEE192913E0003B749D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD03FCD192913E0003B749D /* Foundation.framework */; };
+		5FD03FEF192913E0003B749D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD03FD1192913E0003B749D /* UIKit.framework */; };
+		5FD03FF7192913E0003B749D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FD03FF5192913E0003B749D /* InfoPlist.strings */; };
+		5FD03FF9192913E0003B749D /* StroboscopeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD03FF8192913E0003B749D /* StroboscopeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FD03FF0192913E0003B749D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FD03FC2192913E0003B749D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FD03FC9192913E0003B749D;
+			remoteInfo = Stroboscope;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FD03FCA192913E0003B749D /* Stroboscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stroboscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD03FCD192913E0003B749D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5FD03FCF192913E0003B749D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5FD03FD1192913E0003B749D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5FD03FD5192913E0003B749D /* Stroboscope-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stroboscope-Info.plist"; sourceTree = "<group>"; };
+		5FD03FD7192913E0003B749D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5FD03FD9192913E0003B749D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FD03FDB192913E0003B749D /* Stroboscope-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stroboscope-Prefix.pch"; sourceTree = "<group>"; };
+		5FD03FDC192913E0003B749D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5FD03FDD192913E0003B749D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5FD03FE0192913E0003B749D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FD03FE2192913E0003B749D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5FD03FE3192913E0003B749D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5FD03FE5192913E0003B749D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5FD03FEB192913E0003B749D /* StroboscopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StroboscopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD03FEC192913E0003B749D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5FD03FF4192913E0003B749D /* StroboscopeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StroboscopeTests-Info.plist"; sourceTree = "<group>"; };
+		5FD03FF6192913E0003B749D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5FD03FF8192913E0003B749D /* StroboscopeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StroboscopeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FD03FC7192913E0003B749D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD03FD0192913E0003B749D /* CoreGraphics.framework in Frameworks */,
+				5FD03FD2192913E0003B749D /* UIKit.framework in Frameworks */,
+				5FD03FCE192913E0003B749D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD03FE8192913E0003B749D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD03FED192913E0003B749D /* XCTest.framework in Frameworks */,
+				5FD03FEF192913E0003B749D /* UIKit.framework in Frameworks */,
+				5FD03FEE192913E0003B749D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FD03FC1192913E0003B749D = {
+			isa = PBXGroup;
+			children = (
+				5FD03FD3192913E0003B749D /* Stroboscope */,
+				5FD03FF2192913E0003B749D /* StroboscopeTests */,
+				5FD03FCC192913E0003B749D /* Frameworks */,
+				5FD03FCB192913E0003B749D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FD03FCB192913E0003B749D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FD03FCA192913E0003B749D /* Stroboscope.app */,
+				5FD03FEB192913E0003B749D /* StroboscopeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FD03FCC192913E0003B749D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FD03FCD192913E0003B749D /* Foundation.framework */,
+				5FD03FCF192913E0003B749D /* CoreGraphics.framework */,
+				5FD03FD1192913E0003B749D /* UIKit.framework */,
+				5FD03FEC192913E0003B749D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FD03FD3192913E0003B749D /* Stroboscope */ = {
+			isa = PBXGroup;
+			children = (
+				5FD03FDC192913E0003B749D /* AppDelegate.h */,
+				5FD03FDD192913E0003B749D /* AppDelegate.m */,
+				5FD03FDF192913E0003B749D /* Main.storyboard */,
+				5FD03FE2192913E0003B749D /* ViewController.h */,
+				5FD03FE3192913E0003B749D /* ViewController.m */,
+				5FD03FE5192913E0003B749D /* Images.xcassets */,
+				5FD03FD4192913E0003B749D /* Supporting Files */,
+			);
+			path = Stroboscope;
+			sourceTree = "<group>";
+		};
+		5FD03FD4192913E0003B749D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FD03FD5192913E0003B749D /* Stroboscope-Info.plist */,
+				5FD03FD6192913E0003B749D /* InfoPlist.strings */,
+				5FD03FD9192913E0003B749D /* main.m */,
+				5FD03FDB192913E0003B749D /* Stroboscope-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FD03FF2192913E0003B749D /* StroboscopeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FD03FF8192913E0003B749D /* StroboscopeTests.m */,
+				5FD03FF3192913E0003B749D /* Supporting Files */,
+			);
+			path = StroboscopeTests;
+			sourceTree = "<group>";
+		};
+		5FD03FF3192913E0003B749D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FD03FF4192913E0003B749D /* StroboscopeTests-Info.plist */,
+				5FD03FF5192913E0003B749D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FD03FC9192913E0003B749D /* Stroboscope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FD03FFC192913E0003B749D /* Build configuration list for PBXNativeTarget "Stroboscope" */;
+			buildPhases = (
+				5FD03FC6192913E0003B749D /* Sources */,
+				5FD03FC7192913E0003B749D /* Frameworks */,
+				5FD03FC8192913E0003B749D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stroboscope;
+			productName = Stroboscope;
+			productReference = 5FD03FCA192913E0003B749D /* Stroboscope.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FD03FEA192913E0003B749D /* StroboscopeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FD03FFF192913E0003B749D /* Build configuration list for PBXNativeTarget "StroboscopeTests" */;
+			buildPhases = (
+				5FD03FE7192913E0003B749D /* Sources */,
+				5FD03FE8192913E0003B749D /* Frameworks */,
+				5FD03FE9192913E0003B749D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FD03FF1192913E0003B749D /* PBXTargetDependency */,
+			);
+			name = StroboscopeTests;
+			productName = StroboscopeTests;
+			productReference = 5FD03FEB192913E0003B749D /* StroboscopeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FD03FC2192913E0003B749D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Moksha;
+				TargetAttributes = {
+					5FD03FEA192913E0003B749D = {
+						TestTargetID = 5FD03FC9192913E0003B749D;
+					};
+				};
+			};
+			buildConfigurationList = 5FD03FC5192913E0003B749D /* Build configuration list for PBXProject "Stroboscope" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FD03FC1192913E0003B749D;
+			productRefGroup = 5FD03FCB192913E0003B749D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FD03FC9192913E0003B749D /* Stroboscope */,
+				5FD03FEA192913E0003B749D /* StroboscopeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FD03FC8192913E0003B749D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD03FE6192913E0003B749D /* Images.xcassets in Resources */,
+				5FD03FD8192913E0003B749D /* InfoPlist.strings in Resources */,
+				5FD03FE1192913E0003B749D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD03FE9192913E0003B749D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD03FF7192913E0003B749D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FD03FC6192913E0003B749D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD03FE4192913E0003B749D /* ViewController.m in Sources */,
+				5FD03FDE192913E0003B749D /* AppDelegate.m in Sources */,
+				5FD03FDA192913E0003B749D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD03FE7192913E0003B749D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD03FF9192913E0003B749D /* StroboscopeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FD03FF1192913E0003B749D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FD03FC9192913E0003B749D /* Stroboscope */;
+			targetProxy = 5FD03FF0192913E0003B749D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FD03FD6192913E0003B749D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FD03FD7192913E0003B749D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5FD03FDF192913E0003B749D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FD03FE0192913E0003B749D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FD03FF5192913E0003B749D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FD03FF6192913E0003B749D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FD03FFA192913E0003B749D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5FD03FFB192913E0003B749D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FD03FFD192913E0003B749D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stroboscope/Stroboscope-Prefix.pch";
+				INFOPLIST_FILE = "Stroboscope/Stroboscope-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5FD03FFE192913E0003B749D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stroboscope/Stroboscope-Prefix.pch";
+				INFOPLIST_FILE = "Stroboscope/Stroboscope-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5FD04000192913E0003B749D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Stroboscope.app/Stroboscope";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stroboscope/Stroboscope-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StroboscopeTests/StroboscopeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5FD04001192913E0003B749D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Stroboscope.app/Stroboscope";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stroboscope/Stroboscope-Prefix.pch";
+				INFOPLIST_FILE = "StroboscopeTests/StroboscopeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FD03FC5192913E0003B749D /* Build configuration list for PBXProject "Stroboscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD03FFA192913E0003B749D /* Debug */,
+				5FD03FFB192913E0003B749D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FD03FFC192913E0003B749D /* Build configuration list for PBXNativeTarget "Stroboscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD03FFD192913E0003B749D /* Debug */,
+				5FD03FFE192913E0003B749D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FD03FFF192913E0003B749D /* Build configuration list for PBXNativeTarget "StroboscopeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD04000192913E0003B749D /* Debug */,
+				5FD04001192913E0003B749D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FD03FC2192913E0003B749D /* Project object */;
+}
