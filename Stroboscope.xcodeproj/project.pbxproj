@@ -13,7 +13,6 @@
 		5FD03FD8192913E0003B749D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FD03FD6192913E0003B749D /* InfoPlist.strings */; };
 		5FD03FDA192913E0003B749D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD03FD9192913E0003B749D /* main.m */; };
 		5FD03FDE192913E0003B749D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD03FDD192913E0003B749D /* AppDelegate.m */; };
-		5FD03FE1192913E0003B749D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD03FDF192913E0003B749D /* Main.storyboard */; };
 		5FD03FE4192913E0003B749D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD03FE3192913E0003B749D /* ViewController.m */; };
 		5FD03FE6192913E0003B749D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FD03FE5192913E0003B749D /* Images.xcassets */; };
 		5FD03FED192913E0003B749D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD03FEC192913E0003B749D /* XCTest.framework */; };
@@ -21,6 +20,15 @@
 		5FD03FEF192913E0003B749D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD03FD1192913E0003B749D /* UIKit.framework */; };
 		5FD03FF7192913E0003B749D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FD03FF5192913E0003B749D /* InfoPlist.strings */; };
 		5FD03FF9192913E0003B749D /* StroboscopeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD03FF8192913E0003B749D /* StroboscopeTests.m */; };
+		5FD04007192914AA003B749D /* MeterTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FD04006192914AA003B749D /* MeterTable.cpp */; };
+		5FD0400A192914DA003B749D /* VisualizerView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FD04009192914DA003B749D /* VisualizerView.mm */; };
+		5FD0400E1929155F003B749D /* 194-note-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FD0400B1929155F003B749D /* 194-note-2.png */; };
+		5FD0400F1929155F003B749D /* Microphone-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FD0400C1929155F003B749D /* Microphone-1.png */; };
+		5FD040101929155F003B749D /* Microphone-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FD0400D1929155F003B749D /* Microphone-1@2x.png */; };
+		5FD0401419291603003B749D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD0401319291603003B749D /* MediaPlayer.framework */; };
+		5FD040161929160A003B749D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD040151929160A003B749D /* AVFoundation.framework */; };
+		5FD0401819291612003B749D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD0401719291612003B749D /* QuartzCore.framework */; };
+		5FD0401A1929189F003B749D /* particleTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FD040191929189F003B749D /* particleTexture.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +52,6 @@
 		5FD03FDB192913E0003B749D /* Stroboscope-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stroboscope-Prefix.pch"; sourceTree = "<group>"; };
 		5FD03FDC192913E0003B749D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5FD03FDD192913E0003B749D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5FD03FE0192913E0003B749D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5FD03FE2192913E0003B749D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5FD03FE3192913E0003B749D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5FD03FE5192913E0003B749D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +60,17 @@
 		5FD03FF4192913E0003B749D /* StroboscopeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StroboscopeTests-Info.plist"; sourceTree = "<group>"; };
 		5FD03FF6192913E0003B749D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5FD03FF8192913E0003B749D /* StroboscopeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StroboscopeTests.m; sourceTree = "<group>"; };
+		5FD0400519291490003B749D /* MeterTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeterTable.h; sourceTree = "<group>"; };
+		5FD04006192914AA003B749D /* MeterTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeterTable.cpp; sourceTree = "<group>"; };
+		5FD04008192914CB003B749D /* VisualizerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualizerView.h; sourceTree = "<group>"; };
+		5FD04009192914DA003B749D /* VisualizerView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VisualizerView.mm; sourceTree = "<group>"; };
+		5FD0400B1929155F003B749D /* 194-note-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "194-note-2.png"; sourceTree = "<group>"; };
+		5FD0400C1929155F003B749D /* Microphone-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Microphone-1.png"; sourceTree = "<group>"; };
+		5FD0400D1929155F003B749D /* Microphone-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Microphone-1@2x.png"; sourceTree = "<group>"; };
+		5FD0401319291603003B749D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		5FD040151929160A003B749D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5FD0401719291612003B749D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5FD040191929189F003B749D /* particleTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = particleTexture.png; path = ../../particleTexture.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD0401819291612003B749D /* QuartzCore.framework in Frameworks */,
+				5FD040161929160A003B749D /* AVFoundation.framework in Frameworks */,
+				5FD0401419291603003B749D /* MediaPlayer.framework in Frameworks */,
 				5FD03FD0192913E0003B749D /* CoreGraphics.framework in Frameworks */,
 				5FD03FD2192913E0003B749D /* UIKit.framework in Frameworks */,
 				5FD03FCE192913E0003B749D /* Foundation.framework in Frameworks */,
@@ -101,6 +122,9 @@
 		5FD03FCC192913E0003B749D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5FD0401719291612003B749D /* QuartzCore.framework */,
+				5FD040151929160A003B749D /* AVFoundation.framework */,
+				5FD0401319291603003B749D /* MediaPlayer.framework */,
 				5FD03FCD192913E0003B749D /* Foundation.framework */,
 				5FD03FCF192913E0003B749D /* CoreGraphics.framework */,
 				5FD03FD1192913E0003B749D /* UIKit.framework */,
@@ -112,9 +136,11 @@
 		5FD03FD3192913E0003B749D /* Stroboscope */ = {
 			isa = PBXGroup;
 			children = (
+				5FD04002192913F9003B749D /* VisualizerView */,
+				5FD0400419291418003B749D /* MeterTable */,
+				5FD0400319291409003B749D /* Resources */,
 				5FD03FDC192913E0003B749D /* AppDelegate.h */,
 				5FD03FDD192913E0003B749D /* AppDelegate.m */,
-				5FD03FDF192913E0003B749D /* Main.storyboard */,
 				5FD03FE2192913E0003B749D /* ViewController.h */,
 				5FD03FE3192913E0003B749D /* ViewController.m */,
 				5FD03FE5192913E0003B749D /* Images.xcassets */,
@@ -150,6 +176,35 @@
 				5FD03FF5192913E0003B749D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FD04002192913F9003B749D /* VisualizerView */ = {
+			isa = PBXGroup;
+			children = (
+				5FD04008192914CB003B749D /* VisualizerView.h */,
+				5FD04009192914DA003B749D /* VisualizerView.mm */,
+			);
+			name = VisualizerView;
+			sourceTree = "<group>";
+		};
+		5FD0400319291409003B749D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5FD040191929189F003B749D /* particleTexture.png */,
+				5FD0400B1929155F003B749D /* 194-note-2.png */,
+				5FD0400C1929155F003B749D /* Microphone-1.png */,
+				5FD0400D1929155F003B749D /* Microphone-1@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5FD0400419291418003B749D /* MeterTable */ = {
+			isa = PBXGroup;
+			children = (
+				5FD0400519291490003B749D /* MeterTable.h */,
+				5FD04006192914AA003B749D /* MeterTable.cpp */,
+			);
+			name = MeterTable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +254,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Moksha;
 				TargetAttributes = {
+					5FD03FC9192913E0003B749D = {
+						DevelopmentTeam = 4P5LM6HTJ7;
+					};
 					5FD03FEA192913E0003B749D = {
 						TestTargetID = 5FD03FC9192913E0003B749D;
 					};
@@ -229,8 +287,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FD03FE6192913E0003B749D /* Images.xcassets in Resources */,
+				5FD040101929155F003B749D /* Microphone-1@2x.png in Resources */,
+				5FD0400F1929155F003B749D /* Microphone-1.png in Resources */,
+				5FD0401A1929189F003B749D /* particleTexture.png in Resources */,
+				5FD0400E1929155F003B749D /* 194-note-2.png in Resources */,
 				5FD03FD8192913E0003B749D /* InfoPlist.strings in Resources */,
-				5FD03FE1192913E0003B749D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +310,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD04007192914AA003B749D /* MeterTable.cpp in Sources */,
+				5FD0400A192914DA003B749D /* VisualizerView.mm in Sources */,
 				5FD03FE4192913E0003B749D /* ViewController.m in Sources */,
 				5FD03FDE192913E0003B749D /* AppDelegate.m in Sources */,
 				5FD03FDA192913E0003B749D /* main.m in Sources */,
@@ -280,14 +343,6 @@
 				5FD03FD7192913E0003B749D /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		5FD03FDF192913E0003B749D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5FD03FE0192913E0003B749D /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		5FD03FF5192913E0003B749D /* InfoPlist.strings */ = {
@@ -376,10 +431,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kaitlyn Landmesser (4P5LM6HTJ7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Stroboscope/Stroboscope-Prefix.pch";
 				INFOPLIST_FILE = "Stroboscope/Stroboscope-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B438E700-D01C-4A10-A90D-582F7B71ED6D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +447,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kaitlyn Landmesser (4P5LM6HTJ7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Stroboscope/Stroboscope-Prefix.pch";
 				INFOPLIST_FILE = "Stroboscope/Stroboscope-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B438E700-D01C-4A10-A90D-582F7B71ED6D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

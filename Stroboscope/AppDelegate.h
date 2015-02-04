@@ -1,11 +1,10 @@
 //
 //  AppDelegate.h
-//  Stroboscope
+//  stroboscope
 //
-//  Created by Kaitlyn Renee on 5/18/14.
-//  Copyright (c) 2014 Moksha. All rights reserved.
+//  Created by Kaitlyn Renee on 3/27/14.
+//  Copyright (c) 2014 pomware. All rights reserved.
 //
-
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
